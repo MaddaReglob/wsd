@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+
+
+
+<html lang="en-gb">
+
+
+
+
+
+
+
+<head>
+
+    <!-- Meta things -->
+
+    <meta charset="UTF-8">
+
+    <meta name="author" content="Manchester City Council">
+
+    <meta name="description" content="Find those hidden gems in the Northern Quarter that really show off true beauty and inspiration">
+
+    <meta name="keywords" content="northern , quarter, guide, bars, art, nightlife, coffee, reviews">
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <title> Street Art | Northern Quarter </title>
+
+
+
+    <!-- Styling goes here -->
+
+    <link href="https://fonts.googleapis.com/css?family=Trirong:300,300i,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Give+You+Glory" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+<body>    
+
+<header class="page-header">
+    <!-- Skip to main link -->
+    <a class="skip-main" href="#introduction">Skip to main content</a>
+    
+    
+    <nav class="page-nav">
+
+        <ul>
+
+            <li><a href="index.html" title="Home page"> Home</a></li>
+
+            <li><a href="food-drink.html" title="Food and Drink section"> Food &amp; Drink</a></li>
+
+            <li><a href="street-art.html" title="Street art section"> Street Art</a></li>
+
+            <li><a href="contact.html" title="Contact us page"> Contact</a></li>
+
+        </ul>
+
+
+
+    </nav>
+
+    <div class="header-content">
+
+        <h1> Street Art</h1>
+
+        <div class="hero-slideshow">
+            <img class="mySlides" src="assets/polaroid.jpg" alt="">
+            <img class="mySlides" src="assets/giant-blue-tit.jpg" alt="">
+            <img class="mySlides" src="assets/manc-bees.jpg" alt="">
+            <img class="mySlides" src="assets/jeweled-woman.jpg" alt="">
+
+            <button class="hero-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="hero-right" onclick="plusDivs(+1)">&#10095;</button>
+
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {slideIndex = 1} 
+                    if (n < 1) {slideIndex = x.length} ;
+                    for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none"; 
+                    }
+                    x[slideIndex-1].style.display = "block"; 
+                }
+            
+            </script>
+
+         </div>
+         </div>
+</header>
+
+
+
+    
+
+        <main>
+
+            <!-- First section -->
+
+            <section id="introduction" class="section1 container">
+
+                <h2>Street Art</h2>
+
+                <p>Manchester's Northern Quarter is famous for its various street art designs found 
+                    throughout the area. Some are visibly displayed on more prominent buildings whist 
+                    others are hidden away like treasures begging to be discovered. Whether you are 
+                    just passing through, or actively searching for these gems, these pieces are worth 
+                    the time. They are truly wonderous to behold. In this section, we have included a 
+                    selection of our favourite pieces. They can give you an idea of the beauties that 
+                    you can find simply by walking the streets of Manchester. </p>
+
+
+
+
+
+
+            </section>
+
+            <!-- Second section copy and paste as necessary -->
+
+
+
+            
+
+            <section id="street-art" class="art-container">
+
+
+
+
+
+        <div class="container-content">
+
+
+
+            <div class="content">
+
+            <div class="review"> 
+
+                <h2>Giant Blue Tit</h2>
+
+            <br>
+
+                <img class="food-drink-image" src="assets/giant-blue-tit.jpg" title="Giant Blue Tit" alt="An image of the Giant Blue Tit">
+
+                <div class="image-text">
+
+                <p class="menu"> That's right, you read it correctly, a Giant Blue Tit. This piece of art is one of our favourites because of the sheer size and detail, a true master piece of work. This artwork was commissoned by the clothing brand Converse and painted by the artist Faunographic. The Giant Blue Tit can be found on Newton Street.</p>
+
+                </div>
+
+                <a href="giantbluetit.html" title="Giant Blue Tit">
+                        <div class="sa-home-button">
+                        <p>Giant Blue Tit</p>
+    
+                   </div>
+                   </a>
+
+            </div>
+
+            <div class="review">
+
+                <h2>Jeweled Woman</h2>
+
+                <img class="food-drink-image" src="assets/jeweled-woman.jpg" title="Jeweled Woman" alt="The Jeweled woman street art image">
+
+                <p class="menu">Four artists from Subism collective created this masterful piece of artwork on the side of the ‘Ride Low ’ 
+                    bike shop in 2011. Funded by Red Bull, this artwork took five days to complete.
+                    This piece is referred to as a lot of different names including ‘the wall’ ‘sixxis’ but we called it the ‘jewled woman’. </p>
+
+                    <a href="jeweledwoman.html" title="The Jeweled Woman">
+                            <div class="sa-home-button">
+                            <p>Jeweled Woman</p>
+        
+                       </div>
+                       </a>
+                
+
+            </div>
+
+
+
+            <div class="review">
+
+                    <h2>Manchester Bees</h2>
+
+                    <img class="food-drink-image" src="assets/manc-bees.jpg" title="Manchester Bees" alt="Manchester Bees street art image">
+
+                    <p class="menu">This piece truly shows off manchester in all it's glory taking the iconic bee and displaying it as a centerpiece of a work of art. This demonstrates what it really means to be a part of Manchester.
+
+
+
+                 It really captures the heart of it all from the location being at the heart of it, to the imagery. Giving you a sense of pride and love for the place it resides.</p>
+
+
+                 <a href="manchesterbee.html" title="The Manchester Bees">
+                        <div class="sa-home-button">
+                        <p>Manchester Bees</p>
+    
+                   </div>
+                   </a>
+
+                    
+
+                </div>
+                </div>
+                </div>
+                
+
+            </section>
+
+        </main>
+
+        <footer>
+
+                <div class="footer-content">
+        
+                <p>Go and enjoy!</p>
+        
+                <p class="disclaimer">&copy; <a href="http://www.mmu.ac.uk/" title="MMU homepage">MMU 2018</a> | STUDENT COURSEWORK | VIMFOX6b | <a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >Valid HTML</a> </p>
+        
+                <ul class="footer-links">
+        
+                    <li> <a href="https://www.facebook.com"> <img class="fb-icon" src="http://icons.iconarchive.com/icons/danleech/simple/128/facebook-icon.png" alt="Find us on facebook" title="Find us on FaceBook"> </a>  </li>
+        
+                    <li> <a href="https://www.twitter.com"> <img class="twitter-icon" src="http://icons.iconarchive.com/icons/limav/flat-gradient-social/128/Twitter-icon.png" alt="Follow us on Twitter" title="Follow us on twitter"> </a> </li>
+        
+                </ul>
+        
+        
+        
+                 </div>
+
+
+            </footer>
+
+    </body>
+
+    
+
+</html>

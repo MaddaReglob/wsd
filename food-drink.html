@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+
+
+
+<html lang="en-gb">
+
+
+
+
+
+
+
+<head>
+
+    <!-- Meta things -->
+
+    <meta charset="UTF-8">
+
+    <meta name="author" content="Manchester City Council">
+
+    <meta name="description" content="Here you will find information on places you can grab a bite to eat, coffee with that friend you haven't seen in a while or a bar for a really great night out">
+
+    <meta name="keywords" content="northern , quarter, guide, bars, art, nightlife, coffee, reviews">
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <title> Food &amp; Drink | Northern Quarter </title>
+
+
+
+    <!-- Styling goes here -->
+
+    <link href="https://fonts.googleapis.com/css?family=Trirong:300,300i,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Give+You+Glory" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+    <body>
+    <header class="page-header">
+
+        <!-- Skip to main link -->
+        <a class="skip-main" href="#introduction">Skip to main content</a>
+    
+    
+        <nav class="page-nav">
+
+            <ul>
+
+                <li><a href="index.html" title="Home page"> Home</a></li>
+
+                <li><a href="food-drink.html" title="Food and Drink section"> Food &amp; Drink</a></li>
+
+                <li><a href="street-art.html" title="Street art section"> Street Art</a></li>
+
+                <li><a href="contact.html" title="Contact us page"> Contact</a></li>
+
+            </ul>
+
+
+
+        </nav>
+
+    <div class="header-content">
+
+        <h1>Food and Drink</h1>
+
+        <div class="hero-slideshow">
+            <img class="mySlides" src="assets/thewhiskyjar.JPG" alt="">
+            <img class="mySlides" src="assets/drinks.jpg" alt="">
+            <img class="mySlides" src="assets/koffee-pot.jpg" alt="">
+            <img class="mySlides" src="assets/maincoffee.jpg" alt="">
+            <img class="mySlides" src="assets/kosmonautbar.jpg" alt="">
+            <img class="mySlides" src="assets/turtle-bay.jpg" alt="">
+
+            <button class="hero-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="hero-right" onclick="plusDivs(+1)">&#10095;</button>
+
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {slideIndex = 1} 
+                    if (n < 1) {slideIndex = x.length} ;
+                    for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none"; 
+                    }
+                    x[slideIndex-1].style.display = "block"; 
+                }
+            
+            </script>
+    </div>
+
+    </div>
+
+</header>
+
+
+
+    
+
+        <main>
+
+
+            <!-- First section -->
+
+            <section id="introduction" class="section1 container">
+
+                <h2>Food &amp; Drink</h2>
+
+                <p>Below, you will find three sections to make it easier for your choice of venue. Within each section you will find two venue choices representing, Coffee shops for that morning coffee and a quick bite, Restaurants for an evening meal loved ones and bars for that night out with friends. Within the choices we have given are also a summary for each represented business with their map locations.  </p>
+
+
+
+            </section>
+
+            <!-- Second section copy and paste as necessary -->
+
+
+
+            
+
+            <section id="food-drink" class="food-drink-container">
+
+
+
+
+
+        <div class="container-content">
+
+
+
+            <div class="content">
+
+            <div class="review"> 
+
+                <h2>Coffee Shops</h2>
+
+            <br>
+
+                <img class="food-drink-image" src="assets/maincoffee.jpg" title="" alt="A coffee and accompanying meal">
+
+                <br>
+
+                <div class="image-text">
+
+                <p class="menu1-content1"> Follow the link below to find out our choice of coffe shops that are worth a visit. We know work days can be busy and when you need that one hour break, these coffee shops are great to relax in and take your mind off the stresses of work.</p>
+
+                </div>
+
+                <br>
+                    <br>
+                    <a href="coffee.html" title="Coffee shops">
+                         <div class="fd-page-button">
+                        <p>Coffee Shops</p>
+
+                    </div>
+                    </a>
+
+            </div>
+
+            <div class="review">
+
+                <h2>Restaurants</h2>
+
+                <br>
+
+                <img class="food-drink-image" src="assets/yard-coop.jpg" alt="Front of the Yard and Coop restaurant">
+
+                <br>
+
+                <p class="menu2">Food………mmmmmm food. Do you love food as much as we do? Then look no further, inside you will find two fantastic choices of venue, catering for meat lovers or vegans, these two places will get you salivating.</p>
+
+                    <br>
+                    <br>
+                    <a href="restaurant.html" title="Restaurants">
+                         <div class="fd-page-button">
+                        <p>Restaurants</p>
+
+                    </div>
+                    </a>
+
+
+            </div>
+
+
+
+            <div class="review">
+
+                    <h2>Bars</h2>
+
+                    <br>
+
+                    <img class="food-drink-image" src="assets/barshero.jpg" alt="The whisky jar bar image">
+
+                    <br>
+
+                    <p class="menu3">Beer, whisky, wine, good times? We got you covered with our favouite choices to be found in the Northern Quarter. Follow the link below, to see our hidden gem bars, the good thing is, both these bars are found next to each other on Tariff Street.</p>
+
+                        
+                        <br>
+                        <br>
+                        <a href="bars.html" title="Bars">
+                             <div class="bars-page-button">
+                            <p>Bars</p>
+
+                        </div>
+                        </a>
+
+                        
+
+                    
+
+                </div>
+    </div>
+    </div>
+                
+
+            </section>
+
+        
+
+
+
+                
+
+        </main>
+
+        <footer>
+
+                <div class="footer-content">
+        
+                <p>Go and enjoy!</p>
+        
+                <p class="disclaimer">&copy; <a href="http://www.mmu.ac.uk/" title="MMU homepage">MMU 2018</a> | STUDENT COURSEWORK | VIMFOX6b | <a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >Valid HTML</a> </p>
+        
+                <ul class="footer-links">
+        
+                    <li> <a href="https://www.facebook.com"> <img class="fb-icon" src="http://icons.iconarchive.com/icons/danleech/simple/128/facebook-icon.png" alt="Find us on facebook" title="Find us on FaceBook"> </a>  </li>
+        
+                    <li> <a href="https://www.twitter.com"> <img class="twitter-icon" src="http://icons.iconarchive.com/icons/limav/flat-gradient-social/128/Twitter-icon.png" alt="Follow us on Twitter" title="Follow us on twitter"> </a> </li>
+        
+                </ul>
+        
+        
+        
+                 </div>
+        
+        
+        
+            </footer>
+
+    </body>
+ 
+
+
+</html>

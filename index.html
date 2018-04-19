@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+
+
+
+<html lang="en-gb">
+
+
+
+
+
+
+
+<head>
+
+    <!-- Meta things -->
+
+    <meta charset="UTF-8">
+
+    <meta name="author" content="Manchester City Council">
+
+    <meta name="description" content="Here is the place to discover hidden gems and new vibes in the northern quarter as well as a feast for your eyes">
+
+    <meta name="keywords" content="northern , quarter, guide, bars, art, nightlife, coffee, reviews">
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <title> Home Page | Northern Quarter </title>
+
+
+
+    <!-- Styling goes here -->
+
+    <link href="https://fonts.googleapis.com/css?family=Trirong:300,300i,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Give+You+Glory" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+<body>
+
+<header class="page-header">
+
+    <!-- Skip to main link -->
+    <a class="skip-main" href="#introduction">Skip to main content</a>
+        <nav class="page-nav">
+
+            <ul>
+    
+                <li><a href="index.html" title="Home page"> Home</a></li>
+    
+                <li><a href="food-drink.html" title="Food and Drink section"> Food &amp; Drink</a></li>
+    
+                <li><a href="street-art.html" title="Street art section"> Street Art</a></li>
+    
+                <li><a href="contact.html" title="Contact us page"> Contact</a></li>
+    
+            </ul>
+    
+    
+    
+        </nav>
+
+        <div class="header-content">
+
+            <h1>Explore Northern Quarter</h1>
+
+            <video class="welcome-landscape" controls autoplay loop> 
+            <source src="assets/timelapse.mp4" type="video/mp4">
+                Your browser does not support this video
+            </video>
+        </div>
+
+</header>
+
+    
+
+
+        <main>
+
+
+
+
+            <!-- First section -->
+
+            <section id="introduction" class="introduction container">
+
+                <h2>Welcome</h2>
+
+             <p class="intro-para"> Welcome to Explore Northern Quarter, here you will find a guide of the finest food and drink places around the famous Northern Quarter area of Manchester. These guides will include reviews, photos and maps to help you choose and be informed on the best places to eat, chill out with a coffee and have drinks with friends. Northern Quarter is also known for its beautiful Street Art so a section dedicated to various pieces, what they are of, including a short description and map location and photo gallery is also on offer. </p>
+
+
+
+            </section>
+
+            <!-- Second section copy and paste as necessary -->
+
+
+           
+        
+            <section id="food-drink" class="food-drink-container">
+
+                <h2>Food &amp; Drink</h2>
+
+            <br>
+            
+           <div class="image-slideshow">
+                    <img class="mySlides" src="assets/thewhiskyjar.JPG" alt="">
+                    <img class="mySlides" src="assets/drinks.jpg" alt="">
+                    <img class="mySlides" src="assets/koffee-pot.jpg" alt="">
+                    <img class="mySlides" src="assets/maincoffee.jpg" alt="">
+                    <img class="mySlides" src="assets/kosmonautbar.jpg" alt="">
+                    <img class="mySlides" src="assets/turtle-bay.jpg" alt="">
+        
+                    <button class="adv-left" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="adv-right" onclick="plusDivs(+1)">&#10095;</button>
+        
+                    <script>
+                        var slideIndex = 1;
+                        showDivs(slideIndex);
+        
+                        function plusDivs(n) {
+                            showDivs(slideIndex += n);
+                        }
+        
+                        function showDivs(n) {
+                            var i;
+                            var x = document.getElementsByClassName("mySlides");
+                            if (n > x.length) {slideIndex = 1} 
+                            if (n < 1) {slideIndex = x.length} ;
+                            for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none"; 
+                            }
+                            x[slideIndex-1].style.display = "block"; 
+                        }
+                    
+                    </script>
+            </div>
+
+                <p class="section2-content1">Inside the food & drink section , you will find our choices of Coffee Shops, Restaurants and Bars for evey occasion. Although these are only a few choices to whats on offer in the Northern Quarter, we hope our choice of places are a good starting point to a visit to the area. Whether it is a formal occasion, or you're just looking for something fun and relaxing. We believe there's something for everybody to find at the Northern Quarter.</p>
+
+                <br>
+                    <div class="link-container">
+                        <a href="food-drink.html" title="Food and Drink">
+                             <div class="fd-home-button">
+                                <p>Food &amp; Drink</p>
+
+                            </div>
+                        </a>
+                    </div>
+
+            </section>
+
+
+
+            <!-- Third section copy and paste as necessary -->
+
+            <section id="street-art" class="street-art-container">
+
+                    <h2>Street Art</h2>
+
+                <br>
+                <div class="sa-home-container">
+                <img class="section3-image" src="assets/jeweled-woman.jpg" title="Jeweled Woman" alt="The jeweled woman street art image"> 
+                </div>
+                    <p class="section3-content1">Manchester's Northern Quarter is famous for its various street art designs found throughout the area. Some are visibly displayed on more prominent buildings whist others are hidden away like treasures begging to be discovered. Whether you are just passing through, or actively searching for these gems, these pieces are worth the time. They are truly wonderous to behold. In this section, we have included a selection of our favourite pieces. They can give you an idea of the beauties that you can find simply by walking the streets of Manchester</p>
+
+                   
+
+            
+
+                        
+                        <br>
+                        <br>
+                        <div class="link-container">
+                            <a href="street-art.html" title="Street Art">
+                                 <div class="sa-home-button">
+                                    <p>More Street Art</p>
+    
+                                </div>
+                            </a>
+                        </div>
+
+                    
+
+                </section>
+
+                           
+
+        </main>
+
+
+        <footer>
+
+                <div class="footer-content">
+        
+                <p>Go and enjoy!</p>
+        
+                <p class="disclaimer">&copy; <a href="http://www.mmu.ac.uk/" title="MMU homepage">MMU 2018</a> | STUDENT COURSEWORK | VIMFOX6b | <a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >Valid HTML</a> </p>
+        
+                <ul class="footer-links">
+        
+                    <li> <a href="https://www.facebook.com"> <img class="fb-icon" src="http://icons.iconarchive.com/icons/danleech/simple/128/facebook-icon.png" alt="find us on facebook by clicking here" title="Find us on FaceBook"> </a>  </li>
+        
+                    <li> <a href="https://www.twitter.com"> <img class="twitter-icon" src="http://icons.iconarchive.com/icons/limav/flat-gradient-social/128/Twitter-icon.png" alt="follow us on twitter by clicking here" title="Follow us on twitter"> </a> </li>
+        
+                </ul>
+        
+        
+        
+                 </div>
+        
+        
+        
+        
+        
+            </footer>
+        
+    </body>
+
+    
+</html>

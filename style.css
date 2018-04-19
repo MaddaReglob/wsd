@@ -1,0 +1,722 @@
+/* Resets */
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+
+    box-sizing: border-box;
+
+}
+
+
+*,
+*:before,
+*:after {
+
+    box-sizing: inherit;
+
+}
+
+/*end of resets */
+
+/* getting rid of the margin surrounding the page */
+body {
+    margin: 0;
+}
+
+/* skip to main link*/
+
+.skip-main {
+
+    left: -999px;
+    position: absolute;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index:-999;
+}
+
+.skip-main:focus, .skip-main:active {
+
+    color: #fff;
+    background-color: #000;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow: auto;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.2em;
+    z-index: 999;
+
+}
+
+
+
+/* TYPOGRAPHY */
+
+p {
+
+    font-family: 'Trirong', serif;
+    font-size: 1.2em;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+
+h2 {
+    padding-top: 20px;
+    font-family: 'Trirong', serif;
+    font-size: 34px;
+    font-weight: bolder;
+    color: #ad974f;
+    line-height: 1.25;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+/*nav styling */
+nav {
+
+    font-family: 'Trirong';
+    font-size: 24px;
+    font-weight: bolder;
+    background-color: black;
+}
+
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+
+    padding: 20px;
+    text-align: center;
+    width: auto;
+}
+
+nav li {
+
+    list-style: none;
+    flex: 1;
+    color: #ad974f;
+}
+
+/* setting the size of the page with margins in the content area */
+main {
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+}
+
+
+/* making the banner, hero image and nav span the whole page */
+.page-header {
+    width: 100%;
+}
+
+h1{
+    font-family: 'Give You Glory', cursive;
+    font-size: 6em;
+    text-align: center;
+    padding: 20px;
+}
+
+/*making the hero image keep its ratio */
+.welcome-landscape {
+    width:100%;
+    height: auto;
+}
+
+/* nav hit region and colour */
+.page-nav a {
+
+    padding: 20px;
+    color: #ad974f;
+}
+
+section.container {
+
+    border-bottom: solid 2px #E1D9BF;
+    background-color: #efefef;
+    padding-bottom: 40px;
+
+}
+
+
+.section1.container {
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+html {
+
+    background-color: #efefef;
+
+}
+
+
+/* Section 2 styling */
+
+ .food-drink-container{
+
+    border-bottom: solid 2px #E1D9BF;
+    padding-bottom: 40px;
+
+} 
+
+/* floating the first image left via class home page f&d */
+.section2-image {
+
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 80px;
+    border-radius: 8px;
+
+}
+
+.section2-content1 {
+
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+}
+
+/*making the welcome banner span and keep aspect size*/
+.banner-image{
+    width:100%;
+    height: auto;
+}
+
+
+/*making the second image float right via id home f&D*/
+
+
+/* image slideshow styling */
+
+/* Slideshow container */
+.image-slideshow {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    left:0;
+  }
+  
+  /* Next & previous buttons */
+  .adv-left, .adv-right {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ad974f;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Position the "next button" to the right */
+  .adv-right {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+.mySlides {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 1px solid black;    
+}
+
+
+/* end of image carousel on home page */
+
+/* Image carousel used on the fd and sa page as hero */
+/* Slideshow container */
+.hero-slideshow {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    left:0;
+  }
+  
+  /* Next & previous buttons */
+  .hero-left, .hero-right {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ad974f;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Position the "next button" to the right */
+  .hero-right {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+.mySlides {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 1px solid black;    
+}
+/* end of hero carousel */
+
+.intro-para {
+    font-size: 1.2em;
+}
+/* == Buttons found on the food drink page */
+.bars-page-button {
+
+    display: inline-block;
+    padding: 20px 10px;
+    font-weight: bold;
+    border: 1px solid #ad974f;
+    border-radius: 0.2em;
+    background-color: #ad974f;
+    color: white;
+    text-align: center;
+    font-family: 'Trirong', serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    transition: all 0.2s ease;
+    
+}
+
+.fd-page-button {
+    display: inline-block;
+    padding: 20px 0px;
+    font-weight: bold;
+    border: 1px solid #ad974f;
+    border-radius: 0.2em;
+    background-color: #ad974f;
+    color: white;
+    text-align: center;
+    font-family: 'Trirong', serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    transition: all 0.2s ease;
+}
+.restaurant-page-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #ad974f;
+}
+
+.fd-page-button:hover {
+
+    cursor: pointer;
+    background-color: white;
+    color: #ad974f;
+}
+
+.wrapper {
+
+    text-align: center;
+
+}
+
+.link-container {
+    text-align: center;
+}
+
+/* Food drink button on home page*/
+.fd-home-button {
+
+    display: inline-block;
+    padding: 20px 10px;
+    font-weight: bold;
+    border: 1px solid #ad974f;
+    border-radius: 0.2em;
+    background-color: #ad974f;
+    color: white;
+    text-align: center;
+    font-family: 'Trirong', serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    
+    
+}
+
+.fd-home-button:hover {
+
+    cursor: pointer;
+    background-color: white;
+    color: #ad974f;
+}
+
+/* Street art button*/
+.sa-home-button {
+
+    display: inline-block;
+    padding: 20px 10px;
+    font-weight: bold;
+    border: 1px solid #ad974f;
+    border-radius: 0.2em;
+    background-color: #ad974f;
+    color: white;
+    text-align: center;
+    font-family: 'Trirong', serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    
+    
+}
+
+.sa-home-button:hover {
+
+    cursor: pointer;
+    background-color: white;
+    color: #ad974f;
+}
+
+/* Third section / street art / home page */
+
+
+.street-art-container{
+
+    border-bottom: solid 2px #E1D9BF;
+    padding-bottom: 40px;
+} 
+
+/*images */
+.sa-home-container {
+    max-width: 900px;
+    text-align: center;
+}
+
+.section3-image {
+    position: relative;
+    left:10%;
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 80px;
+}
+
+.section3-content1 {
+
+    padding-bottom: 80px;
+}
+
+#home-giant-tit {
+
+    width: 450px;
+    height: 280px;
+    float: right;
+    margin-right: 50px;
+    padding-left: 50px;
+}
+
+.section3-content2 {
+
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+
+
+.contact-button {
+
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #ad974f;
+    margin-right: 10px;
+    margin-bottom: 1em;
+    border-radius: 0.2em;
+    transition: all 0.2s ease;
+    font-family: 'Trirong', serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    background: #efefef;
+    color: #ad974f;
+}
+
+.contact-button:hover {
+
+   cursor: pointer;
+   background-color: #ad974f;
+   color: white;
+}
+
+/* ==== footer styling ==== */
+
+footer {
+
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+footer p {
+
+    text-align: left;
+    display: inline;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.footer-content {
+
+    list-style: none;
+    border-top: 2px solid #ad974f;
+    width: 100%;
+
+}
+
+.footer-links {
+
+    list-style: none;
+    flex: 80%;
+}
+
+.fb-icon {
+
+    width: 3%;
+    height: auto;
+    float: right;
+}
+
+.twitter-icon{
+
+    width: 3%;
+    height: auto;
+    float: right;
+}
+
+
+/* ========FOOD AND DRINK & ART BOXES ================= */
+
+
+.container-content .content {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/*reviews container: image, heading, text*/
+.review {
+
+    flex: 30%;
+    padding-top: 20px;
+    padding-right: 10px;
+    max-width: 600px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+/*images in the food drink section*/
+.food-drink-image {
+    width: 80%;
+    height:auto;
+    padding-bottom: 20px;
+}
+
+
+/* ==== Coffee Shop page ====*/
+
+.coffee-image {
+    width: 50%;
+    height: auto;
+}
+
+/*google map placeholders */
+.map-location {
+    width: 600px; 
+    height: 450px;
+}
+
+/* ===== Contact us page ===== */
+/* Text fields */
+
+input, textarea {
+
+    /* Increasing text box size */ 
+
+    padding: 0.4em;
+
+    /* Making the input text bigger to make it easier to see */
+
+    font-size: 1.2em;
+
+    /* Following the default typeface */
+
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid #bbb;
+    min-width: 50%;
+}
+
+form label {
+
+    /*Each label comes above the field */
+
+    display: block;
+
+    /* Padding based on size of text etc*/
+
+    padding-bottom: 0.2em;
+    padding-top: 0.5em;
+
+}
+
+/*text in the column layouts*/
+p.menu {
+
+    padding: 10px;
+
+}
+
+/* click me button styling */
+.fd-button {
+
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid #ad974f;
+    margin-right: 10px;
+   /* margin-bottom: 1em; */
+    border-radius: 0.2em;
+    transition: all 0.2s ease;
+    font-family: 'Trirong', serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    background: #ad974f;
+    color: white;
+    padding: 15px 30px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/*media query to make the other sections single column on mobile */
+@media screen and (max-width:768px) {
+
+    .section2-image {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+        padding-bottom: 20px;
+
+    }
+
+    .sa-home-container img{
+        max-width: 768px;
+        left: 0;
+        display: inline-block;
+    }
+
+    .section3-image {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+        padding-bottom: 20px;
+    }
+
+    nav {
+        flex-wrap: nowrap;
+    }
+
+    .container-content .content {
+
+        display: inline-block;
+    }
+
+    .review {
+        flex: none;
+    }
+
+    .food-drink-image {
+        width: 100%;
+        height: auto;
+        
+
+    }
+
+    .coffee-image {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+    }
+
+    nav ul {
+
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    nav ul li {
+    
+        padding: 20px;
+        text-align: center;
+        width: 50%;
+        flex: 50%;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .content .map-location {
+        position: relative;
+        left: 50%;
+        width: 300px; 
+        height: 225px;
+    }
+}
